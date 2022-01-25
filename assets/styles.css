@@ -1,0 +1,74 @@
+body {
+    background: transparent;
+}
+a.nav-link {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color .3s ease;
+    cursor: pointer;
+}
+
+a.nav-link:hover {
+    color: #47ea4e; 
+}
+
+#dropdownNavbar{
+    position: absolute;
+    z-index: 1;
+
+}
+
+#home{
+    background-image: url(01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.title-bar{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #47ea4e;
+    z-index: 98;
+    width: 200px;
+    height: 100px;
+}
+.title-bar::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 60px 0 0;
+    border-color: #47ea4e transparent transparent transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+
+.largNum{
+    font-size: 264px;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3;
+    line-height: 100%;
+    height: 165px;
+    overflow: hidden;
+    margin-bottom: -10px;
+}
+
+#clients{
+    background-image: url(02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative  ;
+}
+
+.quote{
+    width: 90%;
+    height: 90%;
+}
