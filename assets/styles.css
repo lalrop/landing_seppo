@@ -70,5 +70,74 @@ a.nav-link:hover {
 
 .quote{
     width: 90%;
-    height: 90%;
+    height: 99%;
+    position: absolute;
+    margin: 3px 0px 0px 16px;
+}
+
+figcaption>img{
+    height: 70px;
+    width: 70px;
+    border-radius: 90%;
+    vertical-align: center;
+}
+
+div.card-body > a{
+    text-decoration: none;
+    color: black;
+}
+
+.imgPortfolio{
+    height: 50vh;
+}
+
+.pricingBlock{
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+    position: relative;
+    text-align: left;
+}
+
+.largNumPricing{
+    font-size: 200px;
+    font-weight: 700;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 13%;
+    height: 165px;
+    overflow: visible;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    bottom: 4px;
+    right: -5px;
+}
+
+.pricingList > li{
+    list-style: none;
+}
+
+.bi-check{
+    color: #47ea4e;
+    font-size: 1.9rem;
+    margin: 0 13px ;
+}
+
+.bi-x{
+    color: gray;
+    font-size: 1.9rem;
+    margin: 0 13px ;
+}
+
+li.list-group-item{
+    background-color: #47ea4e;
+    color: white;
+    border: 0;
+    font-size: x-large;
 }
