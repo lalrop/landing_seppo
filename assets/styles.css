@@ -123,7 +123,7 @@ div.card-body > a{
     list-style: none;
 }
 
-.bi-check{
+ .bi-check{
     color: #47ea4e;
     font-size: 1.9rem;
     margin: 0 13px ;
@@ -140,4 +140,29 @@ li.list-group-item{
     color: white;
     border: 0;
     font-size: x-large;
+}
+
+.percentage{
+    color: #b3b3b3;
+}
+
+.number-millstone{
+    color: black;
+    text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 0 1px #b3b3b3, 0 1px #b3b3b3;
+    font-size: 60px;
+    margin: 3px 0;
+    font-weight: bold;
+}
+
+.form-control{
+    border-bottom: 3px solid black;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+::placeholder{
+    font-weight:700;
+    color:#000;
+    opacity: 0;
 }
