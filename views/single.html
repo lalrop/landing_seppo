@@ -11,7 +11,7 @@
 </head>
 <body class="mx-0">
     <!-- navbar mobile version -->
-    <div class="d-block d-sm-none">
+    <div>
         <nav class="navbar navbar-light bg-black fixed-top">
             <div class="container">
               <!-- logo -->
@@ -19,8 +19,21 @@
                     <img src="../assets/logo.png" alt="" width="88" height="50">
                 </a>
                 <!-- links y hamburguesa -->    
-    
-                <button class="btn btn-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                <div class="d-none d-md-flex">
+                    
+                    <div><a class="nav-link active" aria-current="page" href="#">Home</a></div>
+                    <div><a class="nav-link" href="#About">About</a></div>
+                    <div><a class="nav-link" href="#Clients">Clients</a></div>
+                    <div><a class="nav-link" href="#News">News</a></div>
+                    <div><a class="nav-link" href="#Portfolio">Portfolio</a></div>
+                    <div><a class="nav-link" href="#Pricing">Pricing</a></div>
+                    <div><a class="nav-link" href="#Team">Team</a></div>
+                    <div><a class="nav-link" href="#Skills">Skills</a></div>
+                    <div><a class="nav-link" href="#Milestones">Milestones</a></div>
+                    <div><a class="nav-link" href="#Contact">Contact</a></div>
+                </div>
+
+                <button class="btn btn-black text-light d-block d-sm-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                     <i class="bi bi-list" style="font-size: 2.8rem;"></i>
                 </button>                
             </div>
@@ -69,64 +82,92 @@
         </div>    
     </div>
     <div style="height: 80;"></div>
-    <section class="position-relative mt-2">
-        <article>
-            <div>
-                <h1 class="text-center mt-3 fw-bold" id="title1">
-                    Design crafting ideas digital web solutions
-                </h1>
+    <section class="position-relative mt-2 row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <article>
+                <div>
+                    <h1 class="text-center mt-3 fw-bold" id="title1">
+                        Design crafting ideas digital web solutions
+                    </h1>
+                </div>
+                <div class="text-center">
+                    <img src="../assets/blog_img_01.jpg" class="img-fluid p-4">
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                        <div class="d-flex flex-column flex-sm-row flex-md-column justify-content-center" style=" border-right: 10px solid #47ea4e;">
+                            <div class="text-center px-3">
+                                <p class="author">
+                                    AUTHOR
+                                </p>
+                                <p class="text-secondary">
+                                    John Williams
+                                </p>
+                            </div>
+                            <div class="text-center px-3 ">
+                                <p class="author">
+                                    DATE
+                                </p>
+                                <p class="text-secondary">
+                                    Marzo 01, 2020
+                                </p>
+                            </div>
+                            <div class="text-center px-3 ">
+                                <p class="author">
+                                    CATEGORY
+                                </p>
+                                <p class="text-secondary">
+                                    Uncategorized
+                                </p>
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="col-xs-12 col-md-10">
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="text-start lh-lg px-3">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero dolorem temporibus debitis amet ut corrupti recusandae rem est ipsum animi natus quos quisquam nobis repellat doloribus architecto, iure modi?
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iusto id asperiores exercitationem est? Obcaecati magnam est quis. Ab, odit in quia ducimus minima laboriosam. Nisi eaque sint delectus consectetur.
+                                        <br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ab totam sint dolore deserunt reprehenderit sunt ducimus quidem delectus quos tempore repudiandae, beatae ea iusto quaerat aut inventore dolorem suscipit?
+                                        Repellendus, impedit labore cum quos officia animi voluptatem temporibus debitis consequatur! Id, accusamus. Odio amet excepturi natus, iusto quam repellat asperiores enim labore dolorum culpa hic, aliquid sint. Iure, ipsa.
+                                    </p>
+                                    <figure class="my-3">
+                                        <img src="../assets/quotes_image.png" width="45px" class="my-3">
+                                        <blockquote class="blockquote fw-bold">
+                                          <p style="font-size: medium;">
+                                            <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolorum doloremque, hic ipsam impedit tempore aliquid sequi nesciunt sunt illo non maiores omnis asperiores optio illum debitis consequatur ducimus ab?</em>
+                                        </p>
+                                        </blockquote>
+                                      </figure>
+                                    <p>
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita possimus aliquam quis, vitae eos corrupti autem minus ipsum eveniet earum? Consectetur asperiores quam nesciunt voluptate ullam autem ipsum nostrum ipsam!
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sint vel fuga ipsam a deserunt impedit deleniti consequuntur molestiae veritatis dolorem at animi maiores, pariatur quos rerum dolore aut quod.
+                                    </p>  
+                                </div>
+                            </div>
+                            <div class="col-md-2"></div>
+
+                        </div>
+        
+                    </div>
+                </div>
+            </article>
+            <div class="d-flex flex-row justify-content-center my-4">
+                <a href="#title1"><i class="bi bi-chevron-left p-3 m-0" style="font-size: xx-large; background: #47ea4e; color: white;"></i></a>
+                <a href="#title1"><i class="bi bi-chevron-right p-3 m-0" style="font-size: xx-large; background: #47ea4e; color: white;"></i></a>
             </div>
-            <div class="text-center">
-                <img src="../assets/blog_img_01.jpg" class="img-fluid p-4">
-            </div>
-            <div class="text-center px-3 ">
-                <p class="author">
-                    AUTHOR
-                </p>
-                <p class="text-secondary">
-                    John Williams
-                </p>
-                <p class="author">
-                    DATE
-                </p>
-                <p class="text-secondary">
-                    Marzo 01, 2020
-                </p>
-                <p class="author">
-                    CATEGORY
-                </p>
-                <p class="text-secondary">
-                    Uncategorized
-                </p>
-                <p class="text-start lh-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero dolorem temporibus debitis amet ut corrupti recusandae rem est ipsum animi natus quos quisquam nobis repellat doloribus architecto, iure modi?
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iusto id asperiores exercitationem est? Obcaecati magnam est quis. Ab, odit in quia ducimus minima laboriosam. Nisi eaque sint delectus consectetur.
-                    <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ab totam sint dolore deserunt reprehenderit sunt ducimus quidem delectus quos tempore repudiandae, beatae ea iusto quaerat aut inventore dolorem suscipit?
-                    Repellendus, impedit labore cum quos officia animi voluptatem temporibus debitis consequatur! Id, accusamus. Odio amet excepturi natus, iusto quam repellat asperiores enim labore dolorum culpa hic, aliquid sint. Iure, ipsa.
-                </p>
-            </div>
-            <figure class="text-start px-3 lh-lg my-5">
-                <img src="../assets/quotes_image.png" width="45px" class="my-3">
-                <blockquote class="blockquote fw-bold">
-                  <p style="font-size: medium;">
-                    <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolorum doloremque, hic ipsam impedit tempore aliquid sequi nesciunt sunt illo non maiores omnis asperiores optio illum debitis consequatur ducimus ab?</em>
-                </p>
-                </blockquote>
-              </figure>
-            <p class="text-start lh-lg px-3">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita possimus aliquam quis, vitae eos corrupti autem minus ipsum eveniet earum? Consectetur asperiores quam nesciunt voluptate ullam autem ipsum nostrum ipsam!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, sint vel fuga ipsam a deserunt impedit deleniti consequuntur molestiae veritatis dolorem at animi maiores, pariatur quos rerum dolore aut quod.
-            </p>  
-        </article>
-        <div class="d-flex flex-row justify-content-center my-4">
-            <a href="#title1"><i class="bi bi-chevron-left p-3 m-0" style="font-size: xx-large; background: #47ea4e; color: white;"></i></a>
-            <a href="#title1"><i class="bi bi-chevron-right p-3 m-0" style="font-size: xx-large; background: #47ea4e; color: white;"></i></a>
         </div>
+        
+        <div class="col-md-3"></div>
     </section>
 
     <footer>
-        <div class="d-block d-sm-none bg-black">
+        <div class="d-block bg-black">
           <div class="row bg-black text-center">
             <div class="col-12 justify-content-center">
               <img src="../assets/logo.png" alt="" class="img-fluid my-4" width="100vh">
