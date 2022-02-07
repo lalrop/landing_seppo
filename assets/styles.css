@@ -157,6 +157,11 @@ li.list-group-item{
     font-size: x-large;
 }
 
+.position{
+    position: absolute;
+    width: 20%;
+}
+
 .percentage{
     color: #b3b3b3;
 }
