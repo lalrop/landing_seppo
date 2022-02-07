@@ -68,11 +68,20 @@ a.nav-link:hover {
     position: relative  ;
 }
 
+/* Marco Negro testimonios clientes */
 .quote{
     width: 90%;
     height: 99%;
     position: absolute;
     margin: 3px 0px 0px 16px;
+}
+
+.quote-md{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    margin: 3px 0px 0px 16px;
+    padding: 6%;
 }
 
 figcaption>img{
@@ -87,15 +96,21 @@ div.card-body > a{
     color: black;
 }
 
+/* Seccion Portfolio */
 .imgPortfolio{
-    height: 50vh;
+   background: url(./img_portfolio_01.jpg) left top no-repeat, url(./img_portfolio_02.jpg) center no-repeat, url(./img_portfolio_03.jpg) right top no-repeat;
+   background-size: 33%, 34%, 33%;
+   height: 100vh;
+   width: 100vw;
 }
+
+/* Seccion pricing */
 
 .pricingBlock{
     padding-bottom: 20px;
     background-color: #ffffff;
     margin-top: 30px;
-    max-width: 350px;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #000;
