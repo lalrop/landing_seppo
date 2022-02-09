@@ -169,7 +169,7 @@ li.list-group-item{
 .number-millstone{
     color: black;
     text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 0 1px #b3b3b3, 0 1px #b3b3b3;
-    font-size: 60px;
+    font-size: 10.5vh;
     margin: 3px 0;
     font-weight: bold;
 }
